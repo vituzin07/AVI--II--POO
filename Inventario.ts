@@ -14,15 +14,15 @@ class Inventario {
     setquantidademax(qtmx: number){
         this.quantidaeMaximaItens = qtmx
     }
-    setItemInventario(itinv: ItemInventario){
-        this.ItensInventario               = itinv
+    setItemInventario(itinv: []=[] ){
+        this.ItensInventario = itinv
     }
 
 
 
     adcionarItem(item:Item){
 
-        this.ItensInventario.push(new ItensInventario(item ,0))
+        
     }
 
 
